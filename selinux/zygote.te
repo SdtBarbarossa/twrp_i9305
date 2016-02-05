@@ -1,0 +1,2 @@
+allow zygote log_device:chr_file { open write };
+allow zygote log_device:dir { search };
